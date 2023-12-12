@@ -3,10 +3,13 @@ import img from "../../assets/io.jpg";
 import "../Home/Home.css";
 import { gsap } from "gsap";
 
-export default function Home() {
+export default function Home({ setDisplayProyects, setDisplayHome }) {
   const [displayNoneName, setDisplayNoneName] = useState(true);
   const [displayerDomName, setDisplayerDomName] = useState(true);
   const [lineText, setLineText] = useState(false);
+  useEffect(() => {
+    gsap.to(".home__container", { duration: 1, opacity: 1 });
+  }, []);
   useEffect(() => {
     setTimeout(() => {
       setDisplayNoneName(!displayNoneName);
@@ -38,8 +41,12 @@ export default function Home() {
           )}
           <span className="home__line"></span>
         </div>
-        <button className="home__button">Watch Projects</button>
-        <h1>Hola Mundo</h1>
+        <button
+          className="home__button"
+          onClick={() => (setDisplayProyects(true), setDisplayHome(false))}
+        >
+          Watch Projects
+        </button>
       </section>
     </div>
   );
