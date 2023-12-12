@@ -1,0 +1,22 @@
+.leftBar__Container{
+    border-right: 3px solid #fafafa;
+    padding: 0 25px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.leftbar__buttons{
+    background-color: rgba(203, 201, 201, 0.347);
+    width: 50px;
+    padding: 10px;
+    border-radius: 30% / 50%;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px 2px #ffffff, 0 0 10px 2px #ffffff inset;
+}
+.leftBar-buttons-images{
+    width: 100%;
+}
