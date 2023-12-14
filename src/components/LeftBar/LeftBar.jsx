@@ -8,6 +8,7 @@ export default function LeftBar({
   setDisplayProyects,
   setDisplayHome,
   setDisplayInfo,
+  setDisplayContact,
 }) {
   return (
     <div className="leftBar__Container">
@@ -16,7 +17,10 @@ export default function LeftBar({
         alt=""
         className="leftBar-images"
         onClick={(e) => (
-          setDisplayProyects(false), setDisplayHome(true), setDisplayInfo(false)
+          setDisplayProyects(false),
+          setDisplayHome(true),
+          setDisplayInfo(false),
+          setDisplayContact(false)
         )}
       />
       <img
@@ -24,10 +28,23 @@ export default function LeftBar({
         alt=""
         className="leftBar-images"
         onClick={(e) => (
-          setDisplayProyects(false), setDisplayHome(false), setDisplayInfo(true)
+          setDisplayProyects(false),
+          setDisplayHome(false),
+          setDisplayInfo(true),
+          setDisplayContact(false)
         )}
       />
-      <img src={contactIcon} alt="" className="leftBar-images" />
+      <img
+        src={contactIcon}
+        alt=""
+        className="leftBar-images"
+        onClick={(e) => (
+          setDisplayProyects(false),
+          setDisplayHome(false),
+          setDisplayInfo(false),
+          setDisplayContact(true)
+        )}
+      />
     </div>
   );
 }
