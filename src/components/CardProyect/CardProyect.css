@@ -1,8 +1,9 @@
-.cardProyect__container{
-    width: 20%;
-    background-color: azure;
+.cardProyect__container {
+  margin: auto 10px;
+  height: 275px;
 }
 
-.cardProyect__img{
-    width: 200px;
+.cardProyect__img {
+  border-radius: 30% / 50%;
+  width: 200px;
 }
