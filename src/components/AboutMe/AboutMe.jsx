@@ -98,6 +98,7 @@ export default function AboutMe() {
           technical skills with an unwavering commitment to quality and
           creativity
         </p>
+        <h3>Born Date: 19/04/2005</h3>
       </div>
       <div>
         <h2>Skills</h2>

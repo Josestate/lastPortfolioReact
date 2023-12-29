@@ -1,0 +1,37 @@
+.contact__container {
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.contact__textContainer {
+  margin: 80px;
+}
+h3 {
+  margin: 40px;
+}
+h2 {
+  color: #000;
+}
+.contact__span {
+  color: #000;
+}
+.contact__sectionImgs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px;
+}
+.imgsContainer {
+  display: flex;
+  align-items: center;
+}
+.contact__imgs {
+  margin: 20px;
+  width: 90px;
+}
+.contact__imgs_insta {
+  width: 125px;
+  margin: 0 20px 0 0;
+}
