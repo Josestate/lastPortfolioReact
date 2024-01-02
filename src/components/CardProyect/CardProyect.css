@@ -1,9 +1,15 @@
 .cardProyect__container {
   margin: auto 10px;
-  height: 275px;
+  height: auto;
 }
 
 .cardProyect__img {
   border-radius: 30% / 50%;
   width: 200px;
+}
+
+@media all and (max-width: 834px) {
+  .cardProyect__img {
+    width: 100px;
+  }
 }

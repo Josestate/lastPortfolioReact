@@ -10,12 +10,10 @@ export default function Proyects() {
   }, []);
   return (
     <div className="proyects__container">
-      <CardProyect />
-      <CardProyect />
-      <CardProyect />
-      <CardProyect />
-      <CardProyect />
-      <CardProyect />
+      <CardProyect name="Rolex Pr" />
+      <CardProyect name="Mundial Api" />
+      <CardProyect name="Poke page" />
+      <CardProyect name="Eat & Laugh" />
     </div>
   );
 }

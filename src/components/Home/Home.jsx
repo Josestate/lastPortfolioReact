@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import img from "../../assets/io.jpg";
 import "../Home/Home.css";
 import { gsap } from "gsap";
@@ -18,7 +18,9 @@ export default function Home({ setDisplayProyects, setDisplayHome }) {
       setDisplayerDomName(!displayerDomName);
     }, 3000);
     displayNoneName
-      ? gsap.to(".home__name", { width: 254 })
+      ? window.screen.width > 480
+        ? gsap.to(".home__name", { width: 254 })
+        : gsap.to(".home__name", { width: 200 })
       : gsap.to(".home__name", { width: 0 });
   }, [displayNoneName]);
   useEffect(() => {
