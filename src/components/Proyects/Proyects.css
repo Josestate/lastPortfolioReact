@@ -3,3 +3,9 @@
   grid-template-columns: 33% 33% 33%;
   opacity: 0;
 }
+
+@media all and (max-width: 834px) {
+  .proyects__container {
+    grid-template-columns: auto;
+  }
+}

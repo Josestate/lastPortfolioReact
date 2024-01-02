@@ -52,3 +52,16 @@
   top: 50px;
   margin: 25px;
 }
+
+@media all and (max-width: 1000px) {
+  .imageTechnologie {
+    width: 81px;
+  }
+  .aboutMe__container {
+    flex-direction: column;
+  }
+  .aboutMe__imagesSection {
+    width: 325px;
+    padding: 30px;
+  }
+}

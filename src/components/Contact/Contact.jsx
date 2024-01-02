@@ -50,10 +50,13 @@ export default function Contact() {
           <a href="https://wa.link/qo8ph2" target="_blank">
             <img src={whatssImg} className="contact__imgs" alt="whatsapp" />
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/jos%C3%A9-castillo-a1463526b/"
+            target="_blank"
+          >
             <img src={linkelnImg} className="contact__imgs" alt="linkedin" />
           </a>
-          <a href="" target="_blank">
+          <a href="https://github.com/Josestate" target="_blank">
             <img src={gitHubImg} className="contact__imgs_insta" alt="gitHub" />
           </a>
         </div>

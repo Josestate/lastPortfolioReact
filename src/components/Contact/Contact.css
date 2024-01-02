@@ -35,3 +35,17 @@ h2 {
   width: 125px;
   margin: 0 20px 0 0;
 }
+@media all and (max-width: 1010px) {
+  .contact__container {
+    flex-direction: column;
+  }
+  .contact__imgs {
+    width: 60px;
+  }
+  .contact__imgs_insta {
+    width: 95px;
+  }
+  .contact__textContainer {
+    margin: 0px;
+  }
+}

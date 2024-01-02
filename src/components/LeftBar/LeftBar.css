@@ -9,6 +9,7 @@
   justify-content: space-evenly;
   height: 100%;
   background: #00000035;
+  opacity: 0;
 }
 .leftBar-images {
   cursor: pointer;
@@ -21,4 +22,16 @@
 }
 .leftBar-images:hover {
   border: 1px solid;
+}
+.DisplayNone {
+  display: none;
+}
+@media all and (max-width: 480px) {
+  .leftBar__Container {
+    padding: 0 15px;
+    z-index: 2;
+  }
+  .leftBar-images {
+    width: 25px;
+  }
 }
