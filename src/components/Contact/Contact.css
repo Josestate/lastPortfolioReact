@@ -1,0 +1,57 @@
+.contact__container {
+  position: relative;
+  opacity: 0;
+  height: 620px;
+}
+.contact__textContainer {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px 3px #fff;
+  height: 300px;
+}
+h3 {
+  margin: 40px;
+}
+h2 {
+  color: #000;
+}
+.contact__span {
+  color: #000;
+}
+.contact__sectionImgs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background: #b1b1b1c2;
+  box-shadow: 0 0 10px 3px #b1b1b1c2;
+  height: 300px;
+  justify-content: center;
+  position: absolute;
+  top: 280px;
+  left: 80px;
+}
+.imgsContainer {
+  display: flex;
+  align-items: center;
+}
+.contact__imgs {
+  margin: 20px;
+  width: 90px;
+}
+.contact__imgs_insta {
+  width: 125px;
+  margin: 0 20px 0 0;
+}
+@media all and (max-width: 600px) {
+  .contact__container {
+    flex-direction: column;
+    height: 100%;
+  }
+  .contact__sectionImgs {
+    position: static;
+  }
+  .contact__textContainer {
+    margin: 0px;
+  }
+}
